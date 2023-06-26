@@ -1,0 +1,245 @@
+* {
+    font-size: 1rem;
+    /* font-family: 'Noto Sans KR', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; */
+    border-collapse: collapse;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  #chat-wrap {
+    width: 500px;
+    background-color: #ededed;
+    margin: 50px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 41px 41px 82px #c9c9c9, -41px -41px 82px #ffffff;
+    font-family: 'GmarketSansMedium';
+    
+  }
+  
+  #chat {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #chat #dialog {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    background-color: #fefefe;
+  }
+  
+  #chat #dialog .dialog-board {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #chat div {
+    width: 60%;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  #chat div.me {
+    background-color: #EAFAF1;
+    margin: 0px 0px 10px 40%;
+  }
+  
+  #chat div.other {
+    background-color: #FEF9E7;
+    margin: 10px 0px 10px 0;
+  }
+  
+  #chat #divSender {
+    margin-top: 20px;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  
+  #divSender label {
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 60px;
+    vertical-align: bottom;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  
+  #divSender input[type='text'] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: calc(100% - 60px - 60px - 3px);
+    height: 40px;
+    padding-left: 15px;
+    margin-right: 3px;
+  }
+  
+  #chat #divMessage {
+    width: 100%;
+  }
+  
+  #divMessage label {
+    height: 70px;
+    line-height: 70px;
+  }
+  
+  #btnJoin {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    vertical-align: bottom;
+    border: 1px solid #dcdcdc;
+    background-color: #FF6347;
+    border-radius: 5px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  #btnOut {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    vertical-align: bottom;
+    border: 1px solid #dcdcdc;
+    background-color: #FF6347;
+    border-radius: 5px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  #messageInput {
+    width: calc(100% - 60px - 60px - 3px);
+    height: 70px;
+    margin-right: 3px;
+    display: inline-block;
+    resize: none;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    border-radius: 5px;
+  }
+  
+  #btnSend {
+    display: inline-block;
+    width: 60px;
+    height: 70px;
+    vertical-align: bottom;
+    border: 1px solid #dcdcdc;
+    background-color: #FF6347;
+    border-radius: 5px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .date {
+    color: #666;
+    padding-left: 10px;
+    font-size: 0.9rem;
+  }
+
+  
+.chat_sidebar {
+  padding: 0px;
+  padding-top: 50px;
+  width: 200px;
+  background: #FF6347;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  font-family: 'GmarketSansMedium';
+}
+
+.chat_sidebar p {
+  margin-left: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.chat_container {
+  display: block;
+  width: 1500px;
+  margin-left: 400px;
+  font-family: 'GmarketSansMedium';
+}
+
+.chat_sell {
+  display: block;
+  position: absolute;
+  top : 150px;
+  left: 400px;
+  width: 480px;
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 30px;  
+  background-color: rgb(221, 221, 248);
+}
+
+.chat_sell h1 {
+  height: 40px;
+}
+
+.sell_box {
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;  
+  background-color: white;
+}
+
+.chat_buy {
+  display: block;
+  position: absolute;
+  top : 150px;
+  left: 1000px;
+  width: 480px; 
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 30px;  
+  background-color: rgb(221, 221, 248);
+}
+
+.chat_buy h1 {
+  height: 40px;
+}
+
+.buy_box {
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;  
+  background-color: white;
+}
+
+

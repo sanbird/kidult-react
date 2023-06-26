@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navi {
+    display: block;
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+.navi_all {
+    /* background-color: white; */
+    display: block;
+}
+
+.navi_bar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    background-color: rgb(26, 26, 26);
+    display: block;
+}
+
+.navi_login:hover {
+    color: gray;
+}
+
+.navi_login {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.navi_join:hover {
+    color: gray;
+}
+
+.navi_join {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 120px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.navi_mypage:hover {
+    color: gray;
+}
+
+.navi_name {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 220px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.navi_mypage {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+    width: 100px;
+    height: 21px;
+    text-align: center;
+}
+
+
+.navi_logout {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 23px;
+    right: 100px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+    width: 100px;
+    height: 21px;
+    text-align: center;
+}
+
+
+
+.navi_main {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top : 10px;
+    left: 875px;
+    width: 85px;
+    background-color: transparent;
+}
+
+
+.navi_movie {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 110px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+.navi_anime {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 185px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+
+.navi_shop {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 290px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+.navi_direct {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 350px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+.navi_community {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 415px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+.navi_notice {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}

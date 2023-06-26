@@ -1,0 +1,66 @@
+/* 페이지 전체 밑줄제거 */
+:link {
+    text-decoration: none;
+}
+
+/* 게시판 컴포넌트 */
+.detail_container {
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.detail_comment {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex: auto;
+    border-top: 1px solid #d1d1d1;
+
+}
+
+.detail_contents {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: auto;
+  
+}
+
+.article_title {
+    width: auto;
+    height: 150px;
+    font-size: 25px;
+    
+}
+
+.article_info {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 0 20px 0; */
+    padding: 14px 10px 16px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.article_writer {
+    width: 30%;
+}
+
+.article_date {
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.article_hit {
+    width: 30%;
+    text-align: right;
+}
+
+.detail_toList, .detail_toUpdate {
+    float: right;
+    margin-left: 10px;
+}

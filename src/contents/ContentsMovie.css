@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.movie_container {
+  display: block;
+  width: 1500px;
+  margin-left: 250px;
+}
+
+
+.contents_body {
+    border: 3px solid #676767;
+}
+
+.contents_sidebar {
+  padding-top: 30px;
+  margin: 0px;
+  width: 200px;
+  background: #FF6347;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  font-family: 'GmarketSansMedium';
+}
+
+.contents_sidebar p{
+  font-size: 20px;
+  margin-left: 20px;
+  color: black;
+}
+
+.contents_contents {
+    float: 70%;
+}
+
+.contents_center {
+  height: 92vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contents_container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contents_search {
+    width: 200px;
+}
+
+.navi {
+  display: block;
+  height: 50px;
+  background-color: rgb(26, 26, 26);
+  position: relative;
+  z-index: 2;
+}
+
+/* body {
+    background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)), url("https://ts2.mm.bing.net/th?q=%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8%20%ED%94%BC%ED%94%BC%ED%8B%B0&w=271&h=166");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  } */
+  
+  .movie-card-container {
+    cursor: pointer;
+    width: 160px;
+    height: 400px;
+    background-color: #1e1b26;
+    margin: 60px auto 0 auto;
+    box-shadow: 5px 5px 115px -14px black;
+    border-radius: 4px;
+    color: white;
+  }
+  .movie-card-container .movie-image {
+    width: 100%;
+    height: 200px;
+    /* background-image: url("https://i.pinimg.com/originals/b0/df/95/b0df95cfc6f31293d002d4d6daac253c.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: 111 !important; */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+     /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+        color-stop(0, black), 
+        color-stop(0.35, black), 
+        color-stop(0.5, black), 
+        color-stop(0.65, black), 
+        color-stop(0.85, rgba(0, 0, 0, 0.6)), 
+        color-stop(1, rgba(0, 0, 0, 0)));  */
+    position: relative;
+  }
+  .movie-card-container .movie-text {
+    padding: 0px 12px;
+    text-align: justify;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .movie-card-container .movie-text h2 {
+    color: white;
+  }
+  .movie-card-container .movie-summary-row {
+    width: 98%;
+  }
+  .movie-card-container .movie-summary-row h5 {
+    color: white;
+  }
+  .movie-card-container .movie-likes {
+    color: #fe4141;
+    font-size: 14px;
+    margin-right: 4px;
+    position: relative;
+    float: left;
+    line-height: 1;
+  }
+
+  .contents_card {
+    float: auto;
+    padding: 50px;
+    margin: 50px;
+    justify-content: space-around;
+
+  }
+

@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.navi {
+  display: block;
+  height: 50px;
+}
+
+
+/* 마이페이지 */
+
+.mp_sidebar {
+  padding: 0px;
+  padding-top: 50px;
+  width: 200px;
+  background: #FF6347;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  font-family: 'GmarketSansMedium';
+}
+
+.mp_sidebar p {
+  margin-left: 30px;
+  font-size: 20px;
+  color: black;
+}
+.mp_container {  
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'GmarketSansMedium';
+    margin-top: 50px;
+}
+
+.mp_container .title {
+  font-family: 'GmarketSansMedium';
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input{
+    font-family: 'GmarketSansMedium';
+    border: 0;
+    outline: none;
+    font-size: 10px;
+}
+
+.mpbox{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 520px;
+    opacity: 0.9;
+}
+
+.mpbox .content{
+  width: 500px; 
+  box-sizing: border-box;
+  margin: 20px auto;
+  position: relative;
+}
+.mpbox .content label{
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: 14px;
+  padding: 8px;
+  background: white;
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+
+.mpbox .content input{
+    width: 100%;
+    border: 1px solid #dddddd !important;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.mp_button {
+    display: block;
+    float: right;   
+    font-size: 16px;
+    border: 1px solid transparent;  
+    color: black;  
+    padding: 10px 24px;  
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #FF6347;
+    border-radius: 5px;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    margin-right: -25px;
+    font-family: 'GmarketSansMedium';
+}
+
+.mp_button:hover {
+    
+    background-color: lightgray
+}
+
+.mp_button:active {
+    color: white;
+    background-color: #F58220;
+    border-radius: 5px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* 주문 내역 */
+
+.order_container {
+   font-family: 'GmarketSansMedium';
+}
+
+.order_list {
+  font-size: 13px;
+  width: 80%;
+  margin-left: 300px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.order_list a {
+  color: #333;
+  display: inline-block;
+  line-height: 1.4;
+  word-break: break-all;
+  vertical-align: middle;
+}
+
+.order_list a:hover {
+  text-decoration: underline;
+}
+
+.order_list th {
+  text-align: center;
+}
+
+.order_list .th_num {
+  width: 100px;
+  text-align: center;
+}
+
+.order_list .th_date {
+  width: 200px;
+}
+
+.order_list th, .order_list td {
+  padding: 14px 0;
+}
+
+.order_list tbody td {
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.order_list tbody th {
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+}
+
+.order_list tbody th p{
+  display: none;
+}

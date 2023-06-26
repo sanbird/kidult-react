@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.admin_sidebar {
+    padding-top: 30px;
+    margin: 0px;
+    width: 400px;
+    background: #FF6347;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    font-family: 'GmarketSansMedium';
+}
+
+.admin_sidebar p {
+    margin-left: 90px;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+.admin_main {
+    text-align: center;
+}
+
+.admin_navi {
+    display: block;
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+
+.admin_navi_all {
+    /* background-color: white; */
+    display: block;
+}
+
+.admin_navi_bar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.admin_navi_login:hover {
+    color: gray;
+}
+
+.admin_navi_login {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.admin_navi_join:hover {
+    color: gray;
+}
+
+.admin_navi_join {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 120px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.admin_navi_mypage:hover {
+    color: gray;
+}
+
+.admin_navi_name {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 220px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+}
+
+.admin_navi_mypage {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+    width: 100px;
+    height: 21px;
+    text-align: center;
+}
+
+
+.admin_navi_logout {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 23px;
+    right: 100px;
+    background-color: transparent;
+    font-size: 15px;
+    color: "black";
+    width: 100px;
+    height: 21px;
+    text-align: center;
+}
+
+
+
+.admin_navi_main {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 70px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+.admin_navi_user {
+    font-family: 'GmarketSansMedium';
+    position: fixed;  
+    top : 17px;  
+    left: 140px;
+    width: 150px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+.admin_navi_shop {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 240px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+.admin_navi_theme {
+    font-family: 'GmarketSansMedium';
+    position: fixed;
+    top: 20px;
+    left: 330px;
+    width: 85px;
+    height: 21px;
+    background-color: transparent;
+}
+
+
+/* 상품 등록 페이지 */
+
+.rs_head {
+    padding: 20px;
+}
+
+.rs_head h2 {
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+}
+
+.rs_container {
+    margin-left: 800px;
+}
+
+.rs_name {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rs_image {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rs_image input[type="file"]::file-selector-button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.rs_image input[type="file"]::file-selector-button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.rs_price {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rs_count {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rs_category {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rs_contents {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+}
+
+.rs_contents textarea {
+    width: 250px;
+}
+
+.rs_button {
+   
+    text-align: right;
+    width: 350px;    
+}   
+
+.rs_button button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.rs_button button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* 쿠폰 등록 페이지 */
+
+.rc_head {
+    padding: 20px;
+}
+
+.rc_head h2 {
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+}
+
+
+
+.rc_container {
+    width: 900px;
+    margin: auto;
+    margin-left: 500px;
+    font-family: 'GmarketSansMedium';
+}
+
+.rc_list {
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.rc_list a {
+    color: #333;
+    display: inline-block;
+    line-height: 1.4;
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+.rc_list a:hover {
+    text-decoration: underline;
+}
+
+.rc_list th {
+    text-align: center;
+}
+
+.rc_list .th_num {
+    width: 100px;
+    text-align: center;
+}
+
+.rc_list .th_date {
+    width: 200px;
+}
+
+.rc_list th, .rc_list td {
+    padding: 14px 0;
+}
+
+.rc_list tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.rc_list tbody th {
+    padding-left: 28px;
+    padding-right: 14px;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+.rc_list tbody th p{
+    display: none;
+}
+
+.rc_regist {
+    display: block;
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
+.rc_regist_head {
+    margin: 20px;
+}
+
+.rc_name {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rc_value {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rc_button {
+    text-align: right;
+    width: 300px; 
+}
+
+.rc_button button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.rc_button button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rc_give {
+    display: block;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.rc_give_head {
+    margin: 20px;
+}
+
+.rc_user {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rc_coupon {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rc_give_button {
+    text-align: right;
+    width: 350px; 
+}
+
+.rc_give_button button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.rc_give_button button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    font-family: 'GmarketSansMedium';
+}

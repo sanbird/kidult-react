@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* 페이지 전체 밑줄제거 */
+:link {
+    text-decoration: none;
+}
+
+.navi {
+    display: block;
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+
+/* 게시판 컴포넌트 */
+.board_container {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'GmarketSansMedium';
+}
+
+.board_list {
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list a {
+    color: #333;
+    display: inline-block;
+    line-height: 1.4;
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+.board_list a:hover {
+    text-decoration: underline;
+}
+
+.board_list th {
+    text-align: center;
+}
+
+.board_list .th_num {
+    width: 100px;
+    text-align: center;
+}
+
+.board_list .th_date {
+    width: 200px;
+}
+
+.board_list th, .board_list td {
+    padding: 14px 0;
+}
+
+.board_list tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.board_list tbody th {
+    padding-left: 28px;
+    padding-right: 14px;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+.board_list tbody th p{
+    display: none;
+}
+
+
+/* 글쓰기 버튼 */
+.board_write_btn {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 300;
+    background: transparent;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition: all 0.3;
+    -moz-transition: all 0.3;
+    -ms-transition: all 0.3;
+    -o-transition: all 0.3;
+    transition: all 0.3;
+    float: right;
+    margin: 15px;
+    font-family: 'GmarketSansMedium';
+}
+
+.board_write_btn_dark {
+   
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'GmarketSansMedium';
+    height: 40px;
+    border: none;
+}
+/* 
+.board_write_btn_dark:hover, .board_write_btn_dark:focus {
+    background: #373737;
+    border-color: #373737;
+    color: #fff;
+    font-family: 'GmarketSansMedium';
+}
+
+.board_write_btn_dark {
+    background: #555;
+    color: #fff;
+    font-family: 'GmarketSansMedium';
+} */
+
+/* 페이지 버튼 */
+.board_page {
+    text-align: center;
+    font-size: 0;
+}
+
+.board_page_num {
+    display: inline-block;
+}
+
+.board_page .none {
+    display: none;
+}
+
+.board_page button {
+    display: block;
+    margin: 15px 3px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 13px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.board_page button:hover {
+    background: #373737;
+    border-color: #373737;
+    color: #fff;
+}
+
+.board_arrow_left {
+    background: #f8f8f8 no-repeat center center;
+    margin-left: 7px;
+}
+
+.board_arrow_right {
+    background: #f8f8f8 no-repeat center center;
+    margin-right: 7px;
+}
+
+.board_button {
+    float: right;
+    margin: 8px;
+    
+}
+
+.r {
+    text-align: right;
+}

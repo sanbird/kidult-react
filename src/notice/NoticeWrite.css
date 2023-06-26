@@ -1,0 +1,115 @@
+.write_container {
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.write_table {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex: auto;
+    border-top: 1px solid #d1d1d1;
+    
+}
+
+.write_comment {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex: auto;
+    border-top: 1px solid #d1d1d1;
+    
+}
+
+
+
+.write_top {
+    width: 400px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+    font-size: 10pt;
+    padding-top: 3px;
+    padding: 0 5px !important;
+    background: #fff;
+    background-color: #f6f5f5;
+    
+}
+
+.write_title_box {
+    width: 400px;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid #cdcccc;
+    padding: 3px 5px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.write_writer {
+    padding: 0 0 0 10px;
+    
+}
+
+.wirte_bottom {
+
+}
+
+.write_contents {
+    position: relative;
+    font-family: "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    line-height: 1.64;
+    word-break: break-all;
+    width: 850px;
+    max-width: 100%;
+    height: 460px;
+    padding: 6px;
+    margin: 25px 0px 0px 25px;
+    box-sizing: border-box;
+}
+
+
+.write_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    padding: 14px 10px 16px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.write_writer {
+    width: 30%;
+}
+
+.write_date {
+    width: 40%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.write_hit {
+    width: 30%;
+    text-align: right;
+}
+
+.write_buttons {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.ant-space {
+    float: right;
+}
+
+.ck-editor__editable { 
+    height: 400px; 
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-btn {
+    margin-left: 10px;
+}

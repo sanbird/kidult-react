@@ -1,0 +1,15 @@
+.boxA {
+	width: 1030px;
+	margin: 0 auto;
+}
+.boxA::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.box1 {
+	float: left;
+}
+.box2 {
+	float: right;
+}

@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 페이지 전체 밑줄제거 */
+:link {
+    text-decoration: none;
+}
+
+.navi {
+    display: block;
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+/* 게시판 컴포넌트 */
+.notice_container {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 100px;
+}
+
+.notice_list {
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.notice_list a {
+    color: #333;
+    display: inline-block;
+    line-height: 1.4;
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+.notice_list a:hover {
+    text-decoration: underline;
+}
+
+.notice_list th {
+    text-align: center;
+}
+
+.notice_list .th_num {
+    width: 100px;
+    text-align: center;
+}
+
+.notice_list .th_date {
+    width: 200px;
+}
+
+.notice_list th, .notice_list td {
+    padding: 14px 0;
+}
+
+.notice_list tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.notice_list tbody th {
+    padding-left: 28px;
+    padding-right: 14px;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+.notice_list tbody th p{
+    display: none;
+}
+
+
+/* 글쓰기 버튼 */
+
+.notice_write_btn_dark {
+    /* background: #555;
+    color: white; */
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'GmarketSansMedium';
+    height: 40px;
+    border: none;
+}
+
+
+
+/* 페이지 버튼 */
+.notice_page {
+    text-align: center;
+    font-size: 0;
+}
+
+.notice_page_num {
+    display: inline-block;
+}
+
+.notice_page .none {
+    display: none;
+}
+
+.notice_page button {
+    display: block;
+    margin: 15px 3px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 13px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.notice_page button:hover {
+    background: #373737;
+    border-color: #373737;
+    color: #fff;
+}
+
+.notice_arrow_left {
+    background: #f8f8f8 no-repeat center center;
+    margin-left: 7px;
+}
+
+.notice_arrow_right {
+    background: #f8f8f8 no-repeat center center;
+    margin-right: 7px;
+}
+
+.notice_button {
+    float: right;
+    margin: 8px;
+    
+}
+
+.r {
+    text-align: right;
+}

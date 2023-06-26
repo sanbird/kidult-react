@@ -1,0 +1,309 @@
+
+
+.direct_sidebar {
+    padding: 0px;
+    padding-top: 50px;
+    width: 200px;
+    background: #FF6347;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    font-family: 'GmarketSansMedium';
+  }
+  
+  .direct_sidebar p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+  }
+
+/* direct list */
+
+.direct_list {
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin-left: 250px;
+	font-family: 'GmarketSansMedium';
+}
+
+
+.direct_container {
+	width: 1500px;
+	height: 100%;
+	margin: auto;
+	margin-top: 100px;
+	color: black;
+	font-family: 'GmarketSansMedium';
+	display: block;
+	float: left;
+}
+
+.direct_container a {
+	text-decoration: none;
+}
+
+.direct_container a:visited {
+	color: transparent;
+}
+.direct_box {
+	width: 215px;
+	margin: 30px;
+	background-color: white;
+	border-radius: 20px;
+	display: inline-block;
+	background-color: #e5e5e5;
+}
+
+.direct_box img {
+	width: 215px;
+	height: 250px;
+}
+
+.direct_content {
+	position: relative;
+	box-sizing: border-box;
+	padding: 18px 0 41px;
+}
+
+.direct_content p {
+	margin-left: 30px;
+}
+
+.regist_box {
+	position: fixed;
+	bottom: 70px;
+	left: 50px;
+	font-family: 'GmarketSansMedium';
+}
+
+.regist_box span {
+	font-size: 20px;
+	color: black;
+	margin-left: 10px;
+}
+
+
+/* direct detail */
+
+.direct_detail_container {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	padding: 50px;
+	color: rgb(0, 0, 0);
+	font-family: 'GmarketSansMedium';
+	background-color: white;
+}
+
+.detail_box {
+	display: block;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	right: 25%;
+	top: 25%;
+	border: 1px solid rgb(228, 228, 228);
+  padding: 20px;
+}
+
+
+.detail_head {
+	display: block;
+	height: 80px;
+	border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.detail_head h2 {
+	padding-top : 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	font-size: 30px;
+}
+
+.direct_detail {
+	padding: 10px;
+}
+
+.detail_price {
+	float: right;
+	padding-right: 30px;
+}
+
+.detail_content {
+	display: block;
+	width: 500px;
+	margin-top: 100px;
+}
+
+.detail_count {
+	float: right;
+	padding-right: 30px;
+  padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+/* 버튼 */
+.button-box {
+	width: 400px;
+	display: block;
+	position: absolute;
+	bottom :0;
+	padding-bottom: 20px;
+}
+
+.button-box::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.detail_list {
+	float: left;
+	width: 120px;
+	border-right: 1px solid #b2b2b2;
+	margin-left: 50px;
+}
+
+.detail_list:hover {
+	cursor: pointer;
+}
+
+.detail_cart {
+	display: block;
+	float: right;
+	width: 150px;
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+	margin-right: 40px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.detail_cart:hover {
+	cursor: pointer;
+}
+
+.direct_image {
+	width: 350px;
+	height: 500px;
+	object-fit: contain;
+	position: absolute;
+	left: 25%;
+	display: flex;
+	float: left;
+	margin-right: 150px;
+}
+
+/* 직거래 등록 */
+
+.rd_head {
+    padding: 20px;
+}
+
+.rd_head h2 {
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+}
+
+.rd_container {
+    margin-left: 800px;
+}
+
+.rd_name {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rd_image {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rd_image input[type="file"]::file-selector-button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.rd_image input[type="file"]::file-selector-button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    curdor: pointer;
+}
+
+
+.rd_price {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rd_count {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rd_category {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.rd_contents {
+    font-family: 'GmarketSansMedium';
+    margin: 20px;
+    display: block;
+}
+
+.rd_contents textarea {
+    width: 250px;
+}
+
+.rd_button {
+   
+    text-align: right;
+    width: 350px;    
+}   
+
+.rd_button button {
+    font-family: 'GmarketSansMedium';
+    background: #FF6347;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.rd_button button:hover {
+    font-family: 'GmarketSansMedium';
+    background: #fc5133;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
